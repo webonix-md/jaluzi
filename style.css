@@ -389,7 +389,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   .hero { padding: 8px 8px 0; }
   .hero__panel { min-height: 0; border-radius: 22px; }
   .hero__media img { position: relative; width: 100%; height: auto; aspect-ratio: 1 / 1; order: 2; object-position: 35% 50%; }
-  .hero__media { display: block; order: 3; position: relative; margin-top: -60px; }
+  .hero__media { display: block; order: 3; position: relative; margin-top: -60px; order: -1; }
   .hero__mask { background: none; }
   .hero__media::before { content: ""; position: absolute; inset: 0 0 auto; height: 45%; z-index: 1; background: linear-gradient(180deg, var(--cream) 0%, rgba(251,247,241,.8) 30%, rgba(251,247,241,0) 100%); }
   .hero__head { height: 72px; gap: 12px; }
